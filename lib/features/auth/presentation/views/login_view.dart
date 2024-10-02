@@ -28,7 +28,7 @@ class LoginView extends StatelessWidget {
                 const Spacer(
                   flex: 1,
                 ),
-                CustomTextField(hintText: 'username'),
+                CustomTextField(hintText: 'email'),
                 const Spacer(
                   flex: 1,
                 ),
