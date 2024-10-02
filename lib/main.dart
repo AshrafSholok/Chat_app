@@ -1,5 +1,6 @@
-import 'package:chat_app/features/splash%20screen/presentation/views/splash_view.dart';
+import 'package:chat_app/features/home/presentation/views/home_view.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const ChatApp());
@@ -12,7 +13,10 @@ class ChatApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
+      theme: ThemeData(
+        textTheme: GoogleFonts.interTextTheme(),
+      ),
+      home: const HomeView(),
     );
   }
 }
