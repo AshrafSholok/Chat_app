@@ -1,4 +1,4 @@
-import 'package:chat_app/core/constants/assetes%20images/images.dart';
+import 'package:chat_app/core/constants/asset_images.dart';
 import 'package:chat_app/core/themes/styles.dart';
 import 'package:flutter/material.dart';
 

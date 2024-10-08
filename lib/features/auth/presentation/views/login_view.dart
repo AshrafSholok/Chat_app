@@ -1,4 +1,4 @@
-import 'package:chat_app/core/constants/assetes%20images/images.dart';
+import 'package:chat_app/core/constants/asset_images.dart';
 import 'package:chat_app/core/shared%20widgets/custom_button.dart';
 import 'package:chat_app/core/shared%20widgets/custom_text_field.dart';
 import 'package:chat_app/core/themes/styles.dart';
