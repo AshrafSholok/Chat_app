@@ -1,3 +1,5 @@
+import 'package:chat_app/core/routes/app_routing.dart';
+import 'package:chat_app/core/routes/routes.dart';
 import 'package:chat_app/features/home/presentation/views/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -16,7 +18,9 @@ class ChatApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.interTextTheme(),
       ),
-      home: const HomeView(),
+      onGenerateRoute: AppRouting.generateRoute,
+      initialRoute: Routes.init,
+      // home: const HomeView(),
     );
   }
 }
