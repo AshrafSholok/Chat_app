@@ -1,5 +1,5 @@
 import 'package:chat_app/core/routes/routes.dart';
-import 'package:chat_app/core/shared%20widgets/custom_button2.dart';
+import 'package:chat_app/core/shared%20widgets/custom_button.dart';
 import 'package:chat_app/core/themes/colors_app.dart';
 import 'package:flutter/material.dart';
 

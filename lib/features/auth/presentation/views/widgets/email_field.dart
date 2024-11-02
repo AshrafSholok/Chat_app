@@ -1,4 +1,4 @@
-import 'package:chat_app/core/shared%20widgets/default_text_field2.dart';
+import 'package:chat_app/core/shared%20widgets/default_text_field.dart';
 import 'package:flutter/material.dart';
 
 class EmailField extends StatelessWidget {
