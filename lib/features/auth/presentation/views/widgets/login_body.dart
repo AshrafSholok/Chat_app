@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:chat_app/features/auth/presentation/views/widgets/email_field.dart';
 import 'package:chat_app/features/auth/presentation/views/widgets/login_button.dart';
 import 'package:chat_app/features/auth/presentation/views/widgets/login_tittle.dart';

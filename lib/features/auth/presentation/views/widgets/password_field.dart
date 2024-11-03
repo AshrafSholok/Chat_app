@@ -27,7 +27,7 @@ class PasswordTextFieldState extends State<PasswordTextField> {
       hintText: 'Your Password',
       prefixIcon: Icons.lock,
       borderRadius: 12,
-      obscureText: !isPasswordVisible, // Toggle visibility
+      obscureText: !isPasswordVisible, 
       suffixIcon: IconButton(
         icon: Icon(
           isPasswordVisible ? Icons.visibility : Icons.visibility_off,
@@ -37,7 +37,7 @@ class PasswordTextFieldState extends State<PasswordTextField> {
       validator: (val) {
         if (val!.isEmpty) {
           return 'This Field is Required';
-        } else if (val.length <8) {
+        } else if (val.length < 7) {
           return 'password too weak';
         } else {
           return null;
