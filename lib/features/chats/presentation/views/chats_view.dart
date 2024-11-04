@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:chat_app/core/constants/asset_icons.dart';
 import 'package:chat_app/core/routes/routes.dart';
 import 'package:chat_app/core/themes/colors_app.dart';
@@ -28,6 +30,8 @@ class ChatsView extends StatelessWidget {
               if (result == 'New Group') {
               } else if (result == 'Profile') {
                 Navigator.pushNamed(context, Routes.profile);
+              } else if (result == 'Logout') {
+                Navigator.pushNamed(context, Routes.login);
               }
             },
             itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
@@ -41,9 +45,11 @@ class ChatsView extends StatelessWidget {
                     onTap: () => Navigator.pushNamed(context, Routes.profile),
                     child: const Text('Profile')),
               ),
-              const PopupMenuItem<String>(
+              PopupMenuItem<String>(
                 value: 'Logout',
-                child: Text('Logout'),
+                child: GestureDetector(
+                    onTap: () => Navigator.pushNamed(context, Routes.login),
+                    child: const Text('Logout')),
               ),
             ],
           ),
