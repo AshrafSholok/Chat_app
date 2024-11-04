@@ -5,7 +5,7 @@ class AssetIcons {
   static const Widget email = Icon(Icons.email);
   static const Widget lock = Icon(Icons.lock);
   static const Widget eye = Icon(Icons.remove_red_eye);
-  static const Widget chats = Icon(Icons.chat);
+  static const Widget chats = Icon(Icons.chat, color: ColorsApp.secondryColor);
   static const Widget status =
       Icon(Icons.lightbulb_circle_outlined, color: ColorsApp.secondryColor);
   static const Widget calls = Icon(Icons.call, color: ColorsApp.secondryColor);
