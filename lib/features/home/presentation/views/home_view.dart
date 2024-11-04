@@ -50,12 +50,6 @@ class HomeViewState extends State<HomeView> {
         selectedItemColor: ColorsApp.primaryColor,
         onTap: _onItemTapped,
       ),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: ColorsApp.secondryColor,
-        elevation: 0,
-        onPressed: () {},
-        child: AssetIcons.newChat,
-      ),
     );
   }
 }
