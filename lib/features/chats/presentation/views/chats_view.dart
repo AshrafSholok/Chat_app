@@ -26,9 +26,8 @@ class ChatsView extends StatelessWidget {
             icon: const Icon(Icons.more_vert, size: 25),
             onSelected: (String result) {
               if (result == 'New Group') {
-                // print("New Group selected");
               } else if (result == 'Profile') {
-                // print("Profile selected");
+                Navigator.pushNamed(context, Routes.profile);
               }
             },
             itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
