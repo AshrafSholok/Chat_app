@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:chat_app/core/constants/asset_icons.dart';
 import 'package:chat_app/core/themes/colors_app.dart';
 import 'package:chat_app/features/chats/presentation/views/widgets/chats_body.dart';
