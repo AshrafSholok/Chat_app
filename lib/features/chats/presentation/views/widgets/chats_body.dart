@@ -1,3 +1,4 @@
+import 'package:chat_app/features/chats/presentation/views/widgets/chat_app_bar.dart';
 import 'package:chat_app/features/chats/presentation/views/widgets/chat_item.dart';
 import 'package:flutter/material.dart';
 
@@ -8,6 +9,7 @@ class ChatsBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
+        ChatAppBar(),
         ChatItem(
           name: 'rowan',
           message: '01011873749',

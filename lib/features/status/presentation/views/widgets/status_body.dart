@@ -1,5 +1,7 @@
+import 'package:chat_app/core/constants/asset_icons.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/my_status.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/recent_update.dart';
+import 'package:chat_app/features/status/presentation/views/widgets/status_bar.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/viewd_updates.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +14,7 @@ class StatusBody extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          StatusBar(),
           Padding(
             padding: EdgeInsets.only(left: 12, top: 15),
             child: MyStatus(),
