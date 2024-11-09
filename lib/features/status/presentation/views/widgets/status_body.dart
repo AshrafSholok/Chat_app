@@ -1,4 +1,3 @@
-import 'package:chat_app/core/constants/asset_icons.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/my_status.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/recent_update.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/status_bar.dart';
